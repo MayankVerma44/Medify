@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# MEDIFY - Medical Center Slot Booking Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MEDIFY is a React-based web application that allows users to find medical centers in specific states and cities across the USA and book appointments. The application provides a user-friendly interface to search for medical services and manage bookings efficiently.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+You can view the live application at: [MEDIFY Live](https://medify-plum.vercel.app/)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [How to Run Locally](#how-to-run-locally)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Landing Page**: 
+  - Navigation bar with links to various sections.
+  - Search functionality to select a state and city, fetching available medical centers.
+  
+- **Search Results Page**: 
+  - Displays available medical centers based on user selection.
+  
+- **Booking Interface**: 
+  - Allows users to select a medical center and book an appointment using a calendar interface.
+  - Users can choose available time slots for appointments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **My Bookings Page**: 
+  - Displays a list of the user’s bookings with details such as the medical center name, appointment date, and time.
 
-### `npm run build`
+- **Responsive Design**: 
+  - Fully responsive layout adhering to the design specifications provided.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Carousels**: 
+  - Implemented using Swiper for enhanced user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend**: React, React Router, Material-UI
+- **State Management**: React Hooks
+- **API Calls**: Axios
+- **Styling**: CSS, Emotion, Swiper
+- **Deployment**: Vercel
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get started with the project, follow the steps below.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Make sure you have [Node.js](https://nodejs.org/) and npm installed on your machine.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### How to Run Locally
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd medify-app
+Install the required dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy code
+npm install
+Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to view the application.
